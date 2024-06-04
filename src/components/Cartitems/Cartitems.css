@@ -1,0 +1,62 @@
+.cartitems{
+    margin: 100px 170px;
+}
+.cartitems-format-main{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    padding: 20px 0px;
+    font-size: 18px;
+    font-weight: 600;
+    gap:75px;
+}
+.cartitems hr{
+    height: 3px;
+    background: rgba(0, 0, 0, 0.51);
+    margin-bottom: 8px;
+    border: 0;
+}
+.cartitems-format{
+    font-size: 17px;
+    font-weight: 500;
+}
+.cartoon{
+    height: 62px;
+
+}.remove{
+    cursor: pointer;
+    width: 15px;
+    margin: 0px 40px;
+}
+.quantity{
+    width: 64px;
+    height: 50px;
+    background: whitesmoke;
+    color: orangered;
+    border-radius: 7px;
+}
+.cartitems-down{
+    display: flex;
+    margin: 100px 0px;
+}
+.cartitems-total{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-right: 200px;
+}
+.cartitems-total-item{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+}
+.cartitems-total button{
+    width: 260px;
+    height: 58px;
+    background: black;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+}
